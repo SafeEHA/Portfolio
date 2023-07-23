@@ -6,7 +6,7 @@ function UseBlog() {
   const { devUsername } = contactsData;
 
   useEffect(() => {
-    fetch(`https://dev.to/api/articles?username=${devUsername}`)
+    fetch(`https://dev.to/api/articles?username=safeeha`)
       .then((response) => response.json())
       .then(data => {
         const filtered = data.sort(() => Math.random() - 0.5);

@@ -15,20 +15,20 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
+        projectName: 'COE-Blog',
+        projectDesc: 'A blog that lets enterpreneurs share their experience with customers.',
+        tags: ['React', 'JavaScript', 'CSS'],
+        code: 'https://github.com/SafeEHA/blog',
+        demo: 'https://coeblog.surge.sh/',
         image: seven
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
+        projectName: 'Portfolio',
+        projectDesc: 'My first portfolio ',
+        tags: ['HTML', 'CSS', 'JavaScript'],
+        code: 'https://github.com/SafeEHA/capstone_project',
+        demo: 'https://salima-rabiu.netlify.app/',
         image: eight
     }
 ]

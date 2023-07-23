@@ -19,7 +19,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
       style={{ backgroundColor: theme.secondary }}
     >
       <div className='contacts--container'>
-        <h1 style={{ color: theme.primary }}>Contacts</h1>
+        <h1 style={{ color: theme.primary }}>Contact</h1>
         <div className='contacts-body'>
           <div className='contacts-form'>
             <form ref={form} onSubmit={handleContactForm}>
@@ -207,37 +207,6 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 </a>
               )}
 
-              {contactsData.youtube && (
-                <a
-                  href={contactsData.youtube}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaYoutube aria-label='YouTube' />
-                </a>
-              )}
-
-              {contactsData.stackOverflow && (
-                <a
-                  href={contactsData.stackOverflow}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaStackOverflow aria-label='Stack Overflow' />
-                </a>
-              )}
-              {contactsData.facebook && (
-                <a
-                  href={contactsData.facebook}
-                  target='_blank'
-                  rel='noreferrer'
-                  className={classes.socialIcon}
-                >
-                  <FaFacebook aria-label='facebook' />
-                </a>
-              )}
             </div>
           </div>
         </div>

@@ -12,20 +12,20 @@ function BlogCard({ blog, theme }) {
     return (
         <Fade bottom>
             <a className="singleBlog"
-                key={blog.id} href={blog.canonical_url}
+                key={blog.id} href={blog.link}
                 target="_blank" rel="noreferrer"
                 style={{ backgroundColor: theme.quaternary }}>
                 <div
                     className="singleBlog--image"
                     style={{ backgroundColor: theme.secondary }}>
                     <img
-                        src={blog.cover_image ? blog.cover_image : placeholder}
+                        src={blog.thumbnail ? blog.thumbnail : placeholder}
                         alt={blog.title} />
                 </div>
                 <div className="singleBlog--body">
                     <div className="blog-card-header">
                         <p style={{ color: theme.primary }}>
-                            {timeConverter(blog.published_at)}
+                            {timeConverter(blog.pubDate)}
                         </p>
                         <div className="public-reaction">
                             <p
@@ -46,12 +46,11 @@ function BlogCard({ blog, theme }) {
                             }
                         </div>
                     </div>
-                    <p style={{ color: theme.primary }}>3 Min Read</p>
                     <h3
                         style={{ color: theme.tertiary, fontWeight: 500 }}>
                         {blog.title}
                     </h3>
-                    <h6 style={{ color: theme.tertiary }}>{blog.description}</h6>
+                    {/* <h6 style={{ color: theme.tertiary }}>{blog.description}</h6> */}
                 </div>
             </a>
         </Fade>

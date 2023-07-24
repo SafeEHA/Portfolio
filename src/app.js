@@ -8,6 +8,7 @@ import ChangeTheme from './components/helper/change-theme/change-theme';
 import ScrollToTop from './components/helper/scroll-to-top';
 import { ThemeContext } from './contexts/theme-context';
 import { BlogPage, HomePage, ProjectPage } from './pages';
+import Counter from './Counter';
 
 function App() {
   const { theme } = useContext(ThemeContext);

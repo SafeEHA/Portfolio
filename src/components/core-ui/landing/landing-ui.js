@@ -76,7 +76,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src="./assets/png/image.png"
                     alt=''
                     className='landing--img'
                     style={{

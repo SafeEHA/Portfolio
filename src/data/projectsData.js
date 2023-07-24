@@ -6,21 +6,21 @@ import six from '../assets/svg/projects/six.svg'
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
-    },
-    {
-        id: 2,
         projectName: 'COE-Blog',
-        projectDesc: 'A blog that lets enterpreneurs share their experience with customers.',
+        projectDesc: 'A simple blog website.',
         tags: ['React', 'JavaScript', 'CSS'],
         code: 'https://github.com/SafeEHA/blog',
         demo: 'https://coeblog.surge.sh/',
         image: seven
+    },
+    {
+        id: 2,
+        projectName: 'Planr',
+        projectDesc: 'A simple, lightweight web application for managing a list of field campaigns',
+        tags: ['React', 'HTML', 'React' ,'Bootstrap'],
+        code: 'https://github.com/SafeEHA/Planr-react',
+        demo: 'http://planr.surge.sh/',
+        image: six
     },
     {
         id: 3,

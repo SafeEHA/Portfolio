@@ -17,7 +17,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
         <div className='navbar'>
             <div className='navbar--container'>
                 <h1 style={{ color: theme.primary }}>
-                    {shortname(headerData.name)}
+                    Salima Rabiu
                 </h1>
 
                 <IoMenuSharp

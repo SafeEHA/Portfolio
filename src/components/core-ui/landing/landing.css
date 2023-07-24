@@ -16,7 +16,7 @@
 .landing--img {
   --img-size: 350px;
   position: absolute;
-  left: 35%;
+  left: 15%;
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);
@@ -71,7 +71,7 @@
 
 .lcr--content {
   width: 45%;
-  margin-right: 7rem;
+  margin-right: 25rem;
   font-family: var(--primaryFont);
   font-style: normal;
 }

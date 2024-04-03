@@ -75,7 +75,10 @@ import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 import kubernetes from '../assets/svg/skills/kubernetes.svg'
 import sass from '../assets/svg/skills/sass.svg'
 import node from '../assets/svg/skills/nodejs.svg'
-
+import prometheus from '../assets/svg/skills/Prometheus.svg'
+import grafana from '../assets/svg/skills/Grafana.svg'
+import Markdown from '../assets/svg/skills/markdown.svg'
+import notion from '../assets/svg/skills/Notion.svg'
 
 
 
@@ -240,6 +243,14 @@ export const skillsImage = (skill) => {
             return kubernetes;
         case 'node':
             return node;
+        case 'prometheus':
+                return prometheus; 
+        case 'grafana':
+                return grafana;
+        case 'Markdown':
+                return markdown;    
+        case 'notion':
+                return notion;
         default:
             break;
     }

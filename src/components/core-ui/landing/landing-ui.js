@@ -6,7 +6,7 @@ import { headerData } from '../../../data/headerData';
 import './landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaFacebook, FaGithub, FaLinkedin, FaMedium, FaTwitter
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
@@ -46,7 +46,21 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     aria-label='GitHub'
                                 />
                             </a>
+                        )},
+                        {contactsData.github && (
+                            <a
+                                href={contactsData.medium}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaMedium
+                                    className='landing--social'
+                                    style={{ color: theme.primary }}
+                                    aria-label='Medium'
+                                />
+                            </a>
                         )}
+
                         {contactsData.twitter && (
                             <a
                                 href={contactsData.twitter}
@@ -96,7 +110,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Product Manager',
+                                'DevOps Engineer',
                                 'Frontend Developer',
                                 'Technical Writer']}
                             typeSpeed={40}
